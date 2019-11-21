@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GUIA7</string>
+    <!-- Pra el Main -->
+    <string name="btnJugar">Jugar</string>
+    <string name="btnverres">Ver Respuesta Correcta</string>
+    <string name="btnverPuntajes">Ver Puntajes</string>
+    <string name="btnMisDatos">Mis Datos</string>
+    <!-- para Jugar-->
+    <string name="btnProcesar">PROCESAR</string>
+    <string name="hinttex">Ingrese un numero</string>
+</resources>

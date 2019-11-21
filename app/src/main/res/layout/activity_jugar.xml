@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6D3434"
+    android:layout_height="match_parent"
+    tools:context=".Jugar">
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/layoutredondo"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/etIngreso"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textAlignment="center"
+            android:hint="@string/hinttex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Juego"
+            android:background="@drawable/botonredondo"
+            android:text="@string/btnProcesar"
+            />
+
+        <TextView
+            android:id="@+id/Juegonum"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/intento"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/puntaje"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puntaje Inicial = 10"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

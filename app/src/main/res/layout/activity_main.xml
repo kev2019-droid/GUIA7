@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6D3434"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Juego"
+        android:background="@drawable/botonredondo"
+        android:text="@string/btnJugar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:elevation="5dp"
+        />
+
+    <Button
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ver_puntajes"
+        android:background="@drawable/botonredondo"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/btnverPuntajes" />
+
+    <Button
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Respuesta"
+        android:background="@drawable/botonredondo"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/btnverres" />
+
+    <Button
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMisDatos"
+        android:background="@drawable/botonredondo"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="misdatos"
+
+        />
+
+
+</LinearLayout>
